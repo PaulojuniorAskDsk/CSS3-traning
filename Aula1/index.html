@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- css interno: utiliza-se da tag style,no head, apra coloca o codigo css-->
+    <style>
+        h1{
+            background:rgb(202, 88, 43);color: rgb(128, 50, 95);
+        }
+
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=[device-width], initial-scale=1.0">
     <title>Forma de declarar css</title>
 </head>
 <body>
     <!-- css inline: declara utilizando o atributo style dentro do elemento.-->
-    <p style="background:chartreuse;color: aqua;">ola mundo</p>
+    <p style="background:chartreuse;color: aqua;">ola mundo</p><!-- nao e recomendado usar, pois deve-se modificar tag por tag-->
+    <!-- em alguns casos o css inline tem vantagem, quando voce não tem o arquivo css, alem de gerar uma preferencia do navegador na
+     hora de interpretar, alem de ser usado como testes para saber como vai ficar, alem de economzar espaço do css.-->
+
+
+     <h1> hello world</h1>
 </body>
 </html>
